@@ -1,0 +1,11 @@
+version: 1.0
+log:
+  level: debug
+http:
+  addr: :8080
+tasks:
+  max-size: 1024
+docker:
+  addr: unix:///var/run/docker.sock
+storage:
+  path: /tmp/oscanner-db
